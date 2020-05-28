@@ -1,7 +1,7 @@
 ---
 
 # See https://github.com/openfoodfoundation/ofn-install/wiki/Setup for more info
-checkout_zone:
+checkout_zone: Europe
 country_code: TR
 currency: TRY
 locale: tr                  # Default locale for OFN instance
@@ -12,10 +12,8 @@ language_packages:          # Language packages for the server
 l10n_repo: https://github.com/edbezci/l10_tr.git
 timezone: Istanbul
 
-
 # Used for the LetsEncrypt email setting
-developer_email: murtazazarkhwan@gmail.com
+developer_email: murtaza5370@gmail.com
 
 users_sysadmin:
-  - "{{ core_devs }}"
-
+  - murtaza
